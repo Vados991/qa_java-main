@@ -14,7 +14,6 @@ public class TestFeline {
         String expected = "Кошачьи";
         Assert.assertEquals("Семейство Feline называется Кошачьи", expected, feline.getFamily());
     }
-
     @Test
     public void countKittensNoArgs() {
         Feline feline = new Feline();
@@ -28,6 +27,5 @@ public class TestFeline {
         int expected = 3;
         Assert.assertEquals("Если указано количество котят, то оно вернётся.",
                 expected, feline.getKittens(expected));
-
     }
 }

@@ -30,6 +30,6 @@ public class LionTest {
     @Test
     public void getFood() throws Exception {
         List<String> expected = List.of("Животные", "Птицы", "Рыба");
-        Assert.assertEquals("У льва диета хищника", expected, lion.getFood());
+        Assert.assertEquals("У льва хищника", expected, lion.getFood());
     }
 }

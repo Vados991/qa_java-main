@@ -23,7 +23,6 @@ public class TestCat {
         Assert.assertEquals(expectedSound, actualSound);
     }
 
-
     @Test
     public void getFoodTest() throws Exception {
         var cat = new Cat(feline);
