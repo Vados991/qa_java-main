@@ -7,7 +7,7 @@ import static org.junit.Assert.assertNotEquals;
 public class LionExceptionTest {
 
     @Test
-    public void lionSexHaveException() throws Exception {
+    public void lionHaveException() throws Exception {
         try {
             Feline feline = new Feline();
             Lion lion = new Lion(" ", feline);
